@@ -23,7 +23,7 @@ const About = () => {
 
         {/* Right Side - Image */}
         <div className="about-image">
-          <img src="/img/profile.jpg" alt="Profile" />
+          <img src="img/profile.jpg" alt="Profile" />
         </div>
       </div>
     </section>
