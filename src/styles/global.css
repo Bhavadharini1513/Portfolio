@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: rgb(43, 43, 33);
+  color: white;
+  overflow-x: hidden;
+}
+
+/* Stars background pattern */
+body::before {
+  content: '';
+  position: fixed;
+  width: 200%;
+  height: 200%;
+  background: url('https://www.transparenttextures.com/patterns/black-linen.png');
+  animation: moveStars 60s linear infinite;
+  z-index: -1;
+}
+
+@keyframes moveStars {
+  from { transform: translate(0, 0); }
+  to { transform: translate(-50px, -50px); }
+}
+
+section {
+  min-height: 100vh;
+  padding: 50px 50px 50px 100px; /* space for sidebar */
+}
+
+h1, h2 {
+  margin-bottom: 15px;
+}

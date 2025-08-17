@@ -1,0 +1,37 @@
+.home-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nameb{
+  font-size: 2rem;
+}
+
+.dev{
+  font-size: 3rem;
+}
+
+.txt{
+  font-size: 20px;
+}
+
+.highlight {
+  color: rgb(112, 190, 230);
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: limegreen;
+  color: black;
+  border-radius: 5px;
+  margin-top: 15px;
+  text-decoration: none;
+}
+
+.Bpic{
+  border-radius:100%;
+  width: 300px;
+}
+
