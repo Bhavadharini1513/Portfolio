@@ -7,7 +7,7 @@ const projectsData = [
     description: "Personal portfolio built with React and custom CSS.",
     tech: "React, CSS",
     link: "#",
-    image: "/img/portfolio.jpg",
+    image: "img/portfolio.jpg",
   },
   {
     title: "Note App",
@@ -15,7 +15,7 @@ const projectsData = [
       "Built an interactive app to create/delete notes with a clean, responsive UI.",
     tech: "HTML, CSS, JavaScript",
     link: "https://bhavadharini1513.github.io/Notes_app/",
-    image: "/img/note.jpg",
+    image: "img/note.jpg",
   },
   {
     title: "Music Website",
@@ -23,7 +23,7 @@ const projectsData = [
       "Built a responsive static site with playlists, song details, and modern styling.",
     tech: "HTML, CSS",
     link: "https://bhavadharini1513.github.io/Music_app/",
-    image: "/img/music.jpg",
+    image: "img/music.jpg",
   },
 ];
 
