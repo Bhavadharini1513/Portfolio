@@ -2,21 +2,21 @@ import React from "react";
 import "../styles/skills.css";
 
 const skills = [
-  { name: "HTML", icon: "/img/html.png" },
-  { name: "CSS", icon: "/img/css.jpeg" },
-  { name: "JavaScript", icon: "/img/js.png" },
-  { name: "React", icon: "/img/react.png" },
-  { name: "Java", icon: "/img/java.png" },
-  { name: "Python", icon: "/img/python.jpeg" },
-  { name: "Git", icon: "/img/git.png" },
-  { name: "GitHub", icon: "/img/github.png" },
-  { name: "SQL", icon: "/img/sql.jpeg" },
+  { name: "HTML", icon: "img/html.png" },
+  { name: "CSS", icon: "img/css.jpeg" },
+  { name: "JavaScript", icon: "img/js.png" },
+  { name: "React", icon: "img/react.png" },
+  { name: "Java", icon: "img/java.png" },
+  { name: "Python", icon: "img/python.jpeg" },
+  { name: "Git", icon: "img/git.png" },
+  { name: "GitHub", icon: "img/github.png" },
+  { name: "SQL", icon: "img/sql.jpeg" },
 ];
 
 const certificates = [
-  { name: "Responsive Web Design", image: "/img/cert3.jpg" },
-  { name: "Javascript Essential", image: "/img/cert2.jpg" },
-  { name: "OPPs in Java", image: "/img/cert1.jpg" },
+  { name: "Responsive Web Design", image: "img/cert3.jpg" },
+  { name: "Javascript Essential", image: "img/cert2.jpg" },
+  { name: "OPPs in Java", image: "img/cert1.jpg" },
 ];
 
 const Skills = () => {
