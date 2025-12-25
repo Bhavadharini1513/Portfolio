@@ -14,13 +14,13 @@ const Contact = () => {
         <div className="contact-card">
           <FaEnvelope className="contact-icon" />
           <h3>Email</h3>
-          <a href="mailto:yourmail@example.com">bhava@gmail.com</a>
+          <a href="mailto:yourmail@example.com">bhavadharini277@gmail.com</a>
         </div>
 
         <div className="contact-card">
           <FaPhone className="contact-icon" />
           <h3>Phone</h3>
-          <a href="tel:+919876543210">+91 96775 38972</a>
+          <a href="tel:+919677590548">+91 96775 90548</a>
         </div>
 
         <div className="contact-card">
